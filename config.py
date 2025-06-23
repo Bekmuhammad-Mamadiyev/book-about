@@ -2,4 +2,4 @@ from environs import Env
 
 env = Env()
 env.read_env()
-API_TOKEN = str(env("TOKEN"))
+API_TOKEN = set(env("TOKEN"))
